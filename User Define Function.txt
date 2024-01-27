@@ -1,0 +1,93 @@
+# Pre Define Function
+
+
+#Declearing a function
+
+
+
+#Problem 1:-
+def fun():
+   
+    print("Inside function")
+  
+  
+
+#Function call 
+fun()
+
+
+#Problem 2:-  
+
+
+def intro():
+   
+    print("My name is Muhammad Waleed Kamal. I am a student of university. I am also learning python programming.")
+    
+
+intro() 
+
+
+#Problem 3:-   
+
+
+def checkevenodd(a):
+    
+if a%2==0:
+        
+    print("Number is even")
+    
+else:
+        
+    print("Number is odd")
+
+
+
+a=int(input("Enter any number : "))
+
+checkevenodd(a)
+
+
+#Problem 4:-
+
+def a(x,y = 40):
+    
+    print("x= ",x)
+    
+    print("y= ",y)
+ 
+   
+
+a(10)
+
+
+#Problem 5:-
+
+def fruit(firstfruit,secondfruit):
+   
+    print(firstfruit,secondfruit)
+    
+    print(firstfruit,secondfruit) 
+   
+ 
+
+fruit(firstfruit='Mango',secondfruit='Apple')
+
+fruit(secondfruit='Banana',firstfruit='Pineapple')
+
+
+
+#Problem 6:-
+
+def power(a,b):
+    
+    print("The",a,"raise to the power",b,"is",a**b)
+
+    
+
+e=int(input("Enter first number : "))    
+
+f=int(input("Enter second number : "))  
+
+power(e,f)
+
+
