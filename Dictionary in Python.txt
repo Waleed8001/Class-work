@@ -1,0 +1,29 @@
+#Dictionary in Python
+
+ages = {"Gino": 10, "Nora": 20}
+
+print(ages["Gino"])
+print(ages["Nora"])
+
+for pairs in ages.items():
+    print(pairs)
+ages["Talisca"] = 24
+
+print(ages)
+
+for pairs in ages.items():
+    print(pairs)
+del ages["Gino"]
+
+print(ages)
+
+print("Nora" in ages)
+
+print("Yahya" in ages)
+
+for pairs in ages.items():
+    print(pairs)
+print(len(ages))
+
+for names in ages:
+    print(names)
