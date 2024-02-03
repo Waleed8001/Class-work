@@ -1,0 +1,111 @@
+# define a class
+class Bike:
+    name = ""
+    gear = 0
+
+# create object of class
+bike1 = Bike()
+
+# access attributes and assign new values
+bike1.gear = 11
+bike1.name = "Mountain Bike"
+
+print(f"Name: {bike1.name}, Gears: {bike1.gear} ")
+
+class student:
+    studentID = 0
+    Studentname = ""
+    StudentClass = 0
+    studentage = 0
+    studentgender = ""
+
+student1 = student()
+
+student1.studentID = 1
+student1.Studentname = "Muhammad Waleed Kamal"
+student1.StudentClass = 12
+student.studentage  = 19
+student1.studentgender = "Male" 
+print(f'''Student's ID : {student1.studentID}
+Student's Name : {student1.Studentname}
+Student's CLASS : {student1.StudentClass}
+Student's AGE : {student.studentage}
+Student's GENDER : {student1.studentgender}''')
+
+
+
+class student:
+    studentID = 0
+    Studentname = ""
+    StudentClass = 0
+    studentage = 0
+    studentgender = ""
+
+student1 = student()
+
+student1.studentID = int(input("Enter Student's ID : "))
+student1.Studentname = input("Enter Student's Name : ")
+student1.StudentClass = int(input("Enter Student's Class : "))
+student.studentage  = int(input("Enter Student's age : "))
+student1.studentgender = input("Enter Student's gender : ")
+print(f'''Student's ID : {student1.studentID}
+Student's Name : {student1.Studentname}
+Student's CLASS : {student1.StudentClass}
+Student's AGE : {student.studentage}
+Student's GENDER : {student1.studentgender}''')
+
+class studentdetail:
+    studentID = 0
+    Studentname = ""
+    StudentClass = 0
+    studentage = 0
+    studentgender = ""
+
+student =  studentdetail()
+
+student.studentID = int(input("Enter Student's ID : "))
+student.Studentname = input("Enter Student's Name : ")
+student.StudentClass = int(input("Enter Student's Class : "))
+student.studentage  = int(input("Enter Student's age : "))
+student.studentgender = input("Enter Student's gender : ")
+print(f'''Student's ID : {student.studentID}
+Student's Name : {student.Studentname}
+Student's CLASS : {student.StudentClass}
+Student's AGE : {student.studentage}
+Student's GENDER : {student.studentgender}''')
+
+
+
+
+# Python3 program to
+# demonstrate instantiating
+# a class
+class Human:
+	# A simple class
+	# attribute
+	attr1 = "human"
+	attr2 = "student"
+
+	# A sample method
+	def fun(self):
+		print("I'm a", self.attr1)
+		print("I'm a", self.attr2)
+# Driver code
+# Object instantiation
+Rodger = Human()
+
+# Accessing class attributes
+# and method through objects
+print(Rodger.attr1)
+Rodger.fun()
+Rodger.fun()
+
+class Python:
+	def __init__(self, name, company):
+		self.name = name
+		self.company = company
+	def show(self):
+		print("Hello my name is " + self.name+" and I" +
+			" work in "+self.company+".")
+obj = Python("Ghufran", "Bano Qabil")
+obj.show()
